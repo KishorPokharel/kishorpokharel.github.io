@@ -68,6 +68,12 @@ body {
   }
 }
 
+@media only screen and (min-width: 1000px) {
+	.container {
+		background-image: url('../assets/largeBgImage.png');
+	}
+}
+
 @media only screen and (min-width: 1300px) {
   .heading {
   	font-size: 8rem;
