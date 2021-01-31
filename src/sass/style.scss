@@ -6,6 +6,9 @@
 
 $bg: #243b4a;
 $txtcolor: #f6f6f6;
+$red: #FF605C;
+$yellow: #FFBD44;
+$green: #00CA4E;
 
 body {
 	background-color: $bg;
@@ -89,3 +92,165 @@ body {
   	}
   }
 }
+
+//about section
+.about-container {
+	padding: 0 1rem;
+	height: 100vh;
+	background-color: $bg;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.about-section {
+	width: auto;
+	margin-bottom: 3rem;
+}
+
+.about-card-header {
+	width: 100%;
+	border: 2px solid #466C85;
+	height: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+
+}
+
+.circle {
+	width: .7rem;
+	height: .7rem;
+	border-radius: 50%;
+	margin-left: 8px;
+}
+
+.red-circle {
+	background-color: $red;
+}
+
+.yellow-circle {
+	background-color: $yellow;
+}
+
+.green-circle {
+	background-color: $green;
+}
+
+.about-card-body {
+	display: flex;
+	padding: 1rem;
+	border: 2px solid #466C85;
+	border-top: none;
+	justify-content: space-around;
+
+	.card-left {
+		margin-right: 2rem;
+	}
+
+	.card-right {
+		display: flex;
+		align-items: center;
+		padding: 0 .8rem;
+		border: 2px solid #466C85;
+		background-color: rgba(70, 148, 201, 0.1);
+		box-shadow: 4px 4px 0px 0px rgba(0,0,0,.25);
+
+		p {
+			font-family: 'Roboto Mono', monospace;
+			color: #CAEAFF;
+			font-size: 0.75rem;
+			font-weight: 200;
+		}
+	}
+}
+
+.avatar-image {
+	width: 85px;
+	height: 106px;
+	border: 2px solid #366C90;
+	box-shadow: 4px 4px 0px 0px rgba(0,0,0,.25);
+}
+
+
+.tech-section {
+	padding: 2rem;
+	h3 {
+		font-family: 'Roboto Mono', monospace;
+		text-decoration: underline;
+		font-size: 1.125rem;
+		font-weight: 300;
+		color: #caeaff;
+	}
+
+	.tech-specs {
+		margin-top: 2rem;
+		padding: 2rem;
+		background-color: rgba(70, 148, 201, 0.1);
+		font-family: 'Roboto Mono', monospace;
+		color: #caeaff;
+		border: 2px solid #caeaff;
+
+		.group1 {
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 1.5rem;
+			font-size: .75rem;
+		}
+
+		.group2 {
+			display: flex;
+			justify-content: space-between;
+			font-size: .75rem;
+
+		}
+	}
+}
+
+@media only screen and (min-width: 445px) {
+	.about-section {
+		width: 375px;
+	}
+}
+
+@media only screen and (min-width: 500px) {
+	.about-section {
+		width: 425px;
+	}
+}
+
+@media only screen and (min-width: 850px) {
+	.about-section {
+		width: 700px;
+	}
+
+	.about-card-body {
+		padding: 3rem;
+
+		.card-right p {
+			font-size: 1.5rem;
+		}
+	}
+
+	.avatar-image {
+		width: 150px;
+		height: 200px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
