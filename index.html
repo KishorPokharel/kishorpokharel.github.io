@@ -10,15 +10,20 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
     <style>
-      * {
-        font-family: sans-serif;
+      html {
+        color-scheme: light dark;
       }
-      *:not(a) {
-        color: rgba(0, 0, 0, 0.9);
+      body {
+        font-family: system-ui, sans-serif;
+        font-size: 1.125rem;
+        line-height: 1.6;
       }
       section {
-        max-width: 600px;
-        margin-bottom: 4rem;
+        width: min(65ch, 100% - 4rem);
+        margin: auto;
+      }
+      a {
+        color: steelblue;
       }
     </style>
   </head>
