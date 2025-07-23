@@ -1,0 +1,95 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[margin=0.75in]{geometry} % Page margins
+\usepackage{hyperref} % For links
+\usepackage{enumitem} % For customizing lists
+\usepackage{titlesec} % For section formatting
+\usepackage{color} % For colored text
+
+\definecolor{darkblue}{RGB}{0,0,120}
+
+\titleformat{\section}{\Large\bfseries\color{darkblue}}{\thesection}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{12pt}{6pt}
+
+
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{0em}{}
+\titlespacing{\subsection}{0pt}{6pt}{2pt}
+
+\pagenumbering{gobble}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Kishor Pokharel}}\\
+    \vspace{0.25em}
+    \href{mailto:kishorpokharel7@gmail.com}{kishorpokharel7@gmail.com}$\bullet$
+    \href{https://www.linkedin.com/in/kishor-pokharel-7192951b0}{LinkedIn}$\bullet$
+    Biratnagar, Nepal
+\end{center}
+
+
+\section*{About Me}
+Experienced software developer with expertise in web development, backend services, database design.
+
+\section*{Education}
+\subsection*{Birat Multiple College (Tribhuvan University)}
+\textbf{Bachelor in Computer Science and IT} \hfill \textit{2019-2024}
+\begin{itemize}[leftmargin=*, noitemsep]
+    \item Relevant Coursework: Data Structures, Algorithms, Database Systems, Web Development
+\end{itemize}
+
+\section*{Work Experience}
+
+\subsection*{Software Developer | Crowdinvest} \hfill \textit{October 2023 - September 2024}
+\begin{itemize}[leftmargin=*, noitemsep]
+    \item Built a customizable static website using HubSpot modules for dynamic content configuration.
+    \item Worked on building CrowdInvest platform using React, Nodejs, Postgres.
+    \item Worked on CrowdInvest Mobile App using React Native.
+\end{itemize}
+
+\subsection*{Backend Developer | Diliflow} \hfill \textit{Jan 2025 - Present}
+\begin{itemize}[leftmargin=*, noitemsep]
+    \item Built a zero-cost, serverless proof of concept of the Diliflow platform using Cloudflare Workers.
+    \item Built workflow automation APIs for dynamic, configurable due-diligence processes on the platform.
+    \item Implemented a Retrieval-Augmented Generation (RAG) system to extract and analyze documents.
+\end{itemize}
+
+\section*{Skillset}
+\begin{itemize}[leftmargin=*, noitemsep]
+    \item \textbf{Programming Languages:} Golang, Typescript, JavaScript
+    \item \textbf{Technologies:} SQL, Node.js, HTML/CSS, React, React Native
+    \item \textbf{Databases:} PostgreSQL, SQLite, Mysql
+    \item \textbf{Tools:} Linux, Git, Cloudflare Workers, Docker
+\end{itemize}
+
+\section*{Personal Projects}
+
+\subsection*{Chat App}
+\begin{itemize}[leftmargin=*, noitemsep]
+    \item A concurrent real-time chat application with user authentication and global chat room.
+    \item Technology used: Golang, Websockets, Postgresql, Javascript, Html, Css
+    \item \href{https://github.com/KishorPokharel/go-chatapp}{https://github.com/KishorPokharel/go-chatapp}
+\end{itemize}
+
+\subsection*{Kanban Board Api}
+\begin{itemize}[leftmargin=*, noitemsep]
+    \item A backend for Kanban board application allowing users to add tasks, update task stages, and reorder tasks based on priority within each stage.
+    \item Technology used: Golang, Postgresql
+    \item \href{https://github.com/KishorPokharel/kanban}{https://github.com/KishorPokharel/kanban}
+\end{itemize}
+
+\subsection*{2D Snake Game}
+\begin{itemize}[leftmargin=*, noitemsep]
+    \item The classic snake game with go and sdl2.
+    \item Technology used: Golang, SDL2
+    \item \href{https://github.com/KishorPokharel/snek}{https://github.com/KishorPokharel/snek}
+\end{itemize}
+
+\subsection*{Gamehub}
+\begin{itemize}[leftmargin=*, noitemsep]
+    \item A website to discover games using rawg api.
+    \item Technology used: React, Typescript, Chakra UI
+    \item \href{https://gamehub-nine.vercel.app}{https://gamehub-nine.vercel.app}
+\end{itemize}
+
+\end{document}
