@@ -1,5 +1,8 @@
+#show heading: set text(rgb("#000078"))
+
 #set text(
-  font: "New Computer Modern"
+  font: "New Computer Modern",
+  size: 9pt,
 )
 
 #align(center, block[
@@ -19,26 +22,27 @@ Experienced software developer with expertise in web development, backend servic
 
 = Education
 
-Birat Multiple College (Tribhuvan University)
-
-Bachelor in Computer Science and IT
+*Bachelor in Computer Science and IT (Tribhuvan University)*
+#align(right, block[
 2019-2024
-
+])
 Relevant Coursework: Data Structures, Algorithms, Database Systems, Web Development
 
 = Work Experience
 
-=== Software Developer — Crowdinvest
+*Software Developer — Crowdinvest*
+#align(right, block[
 October 2023 - September 2024
+])
 
 - Built a customizable static website using HubSpot modules for dynamic content configuration.
-
 - Worked on building CrowdInvest platform using React, Nodejs, Postgres.
-
 - Worked on CrowdInvest Mobile App using React Native.
 
-=== Software Developer — Crowdinvest
-October 2023 - September 2024
+*Software Developer — Diliflow*
+#align(right, block[
+January 2024 - December 2025
+])
 
 - Built a zero-cost, serverless proof of concept of the Diliflow platform using Cloudflare Workers.
 - Built workflow automation APIs for dynamic, configurable due-diligence processes on the platform.
@@ -53,22 +57,22 @@ October 2023 - September 2024
 
 = Personal Projects
 
-=== Chat App
+*Chat App*
 - A concurrent real-time chat application with user authentication and global chat room.
 - Technology used: Golang, Websockets, Postgresql, Javascript, Html, Css
 - https://github.com/KishorPokharel/go-chatapp
 
-=== Kanban Board Api
+*Kanban Board Api*
 - A backend for Kanban board application allowing users to add tasks, update task stages, and reorder tasks based on priority within each stage.
 - Technology used: Golang, Postgresql
 - https://github.com/KishorPokharel/kanban
 
-=== 2D Snake Game
+*2D Snake Game*
 - The classic snake game with go and sdl2.
 - Technology used: Golang, SDL2
 - https://github.com/KishorPokharel/snek
 
-=== Gamehub
+*Gamehub*
 - A website to discover games using rawg api.
 - Technology used: React, Typescript, Chakra UI
 - https://gamehub-nine.vercel.app
