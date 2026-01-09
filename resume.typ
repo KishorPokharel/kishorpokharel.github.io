@@ -57,7 +57,7 @@ January 2024 - December 2025
 
 = Personal Projects
 
-*Kanban Board Api*
+*Kanban Board Web App*
 - A task board web app that allows to add tasks, update task stages, and reorder tasks within each stage.
 - Technology used: React, Hono, Cloudflare Worker
 - https://kanban-app-sepia-gamma.vercel.app/
