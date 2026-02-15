@@ -72,6 +72,16 @@ January 2024 - December 2025
 - Technology used: Golang, Websockets, Postgresql, Javascript, Html, Css
 - https://github.com/KishorPokharel/go-chatapp
 
+*Pulse - Social Media Mobile App*
+- A simple social media app platform made with expo and react native.
+- Technology used: Expo, React Native, Typescript
+- https://github.com/KishorPokharel/pulse_react_native
+
+*Casa - Real Estate Listing Platform*
+- A fullstack real estate listing platform with chat support.
+- Technology used: Golang, Postgres, HTML, CSS, Websockets
+- https://github.com/KishorPokharel/casa
+
 *Gamehub*
 - A website to discover games using rawg api.
 - Technology used: React, Typescript, Chakra UI
