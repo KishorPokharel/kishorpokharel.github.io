@@ -32,7 +32,7 @@ Relevant Coursework: Data Structures, Algorithms, Database Systems, Web Developm
 
 *Software Developer — Crowdinvest*
 #align(right, block[
-October 2023 - September 2024
+October 2023 - May 2025
 ])
 
 - Built a customizable static website using HubSpot modules for dynamic content configuration.
@@ -41,12 +41,19 @@ October 2023 - September 2024
 
 *Software Developer — Diliflow*
 #align(right, block[
-January 2024 - December 2025
+January 2025 - December 2025
 ])
 
 - Built a zero-cost, serverless proof of concept of the Diliflow platform using Cloudflare Workers.
 - Built workflow automation APIs for dynamic, configurable due-diligence processes on the platform.
 - Implemented a Retrieval-Augmented Generation (RAG) system to extract and analyze documents.
+
+*Freelance Projects*
+#align(right, block[
+Present
+])
+
+- Working independently on freelance projects.
 
 = Skillset
 
